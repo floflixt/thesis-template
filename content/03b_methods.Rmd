@@ -1,0 +1,10 @@
+### Images
+
+&nbsp;&nbsp;&nbsp;Images are a bit more complicated to include than in pure markdown. However, if you ever used LaTeX, this might not be so hard for you. You can use the `\slcaption` command to add a caption, from which the first sentence (up to the first dot) will be used as the figure's name in the table of contents. If you do not need this, you might actually use the easy markdown version. Use `\label` to refer to the figure number from every content file (Fig. \ref{electrode_locations}).
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{content/images/electrode_locations.png}
+  \slcaption{Electrode locations. The marked electrodes have been recorded in this experiment. The electrodes used for the EOG are not pictured.}
+  \label{electrode_locations}
+\end{figure}

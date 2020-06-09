@@ -1,0 +1,9 @@
+&nbsp;&nbsp;&nbsp;Hiermit erkläre ich, dass ich diese Arbeit selbst verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel genutzt habe, alle wörtlich oder oder sinngemäß aus anderen Werken übernommenen Aussagen als solche gekennzeichnet habe, die Arbeit weder vollständig noch in wesentlichen Teilen Gegenstand eines anderen Prüfungsverfahren gewesen ist und die Arbeit weder vollständig noch in wesentlichen Teilen bereits veröffentlicht ist, sowie dass das in Dateiform eingereichte Exemplar mit eingereichtem gebundenem Exemplar übereinstimmt.
+
+&nbsp;&nbsp;&nbsp;Ich erkläre, dass ich die Richtlinine zur Sicherung guter wissenschaftlicher Praxis und zum Umgang mit wissenschaftlichem Fehlverhalten an der Eberhard-Karls-Universität beachtet habe.
+
+
+\vspace*{5\baselineskip}
+<!-- <div style="width:200px"><hr/></div> -->
+\rule{8cm}{0.4pt}
+Name - Stadt, den \the\day.\the\month.\the\year

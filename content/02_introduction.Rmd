@@ -1,0 +1,11 @@
+&nbsp;&nbsp;&nbsp;To add a bit formatting, I start every new paragraph with three `&nbsp;`, non-breakable spaces (I'm not sure if this is the correct name, but it makes sense).
+
+&nbsp;&nbsp;&nbsp;This way, the first line of every paragraph is a little bit indented. I like this, but of course this is not necessary. If you know how to 'automate' this in this template, please let me know!
+
+## Sub-Headings
+
+&nbsp;&nbsp;&nbsp;You can use headings and subheadings in the different content files just as if you were writing in the main document. Also, you can acces citations from every file [e.g. @Sumner2008].
+
+## Formatting
+
+&nbsp;&nbsp;&nbsp;Of course, **bold** and *italic* fonts can be achieved by using *asterisks* or _underscores_ - you see, this is standard Markdown. You can even add comments in the text using the html-comment tags<!-- like this, if you need to add more stuff or remove things -->. Personally, I used such comments to add explanations or remove sections, just to get a good argumentative flow in my thesis.

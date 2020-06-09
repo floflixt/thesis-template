@@ -1,0 +1,10 @@
+I like to do the analyses in RMarkdown.
+I can then include these files in the thesis, so that the analysis results for the data (stored in the data subfolder in content) can be used in the text.
+
+Depending on the settings print_analysis and print_analysis_results the following section displays some R code or not. Even if the code is not shown, it is executed.
+
+```{r}
+# this is where regular R stuff happens
+
+x <- 3 + 4
+```

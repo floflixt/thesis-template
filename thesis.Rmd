@@ -1,0 +1,133 @@
+---
+title: '**Title of the thesis**'
+header-includes:
+    - \usepackage{setspace}
+    - \doublespacing
+classoption:
+    - a4paper
+bibliography: references.bib
+csl: style/apa-style.csl
+link-citations: true
+output:
+    pdf_document:
+        fig_caption: yes
+        keep_tex: false
+        number_sections: true
+        toc: false
+        toc_depth: 2
+        includes:
+            in_header: style/preamble.tex
+            before_body: style/title.sty
+---
+
+\newpage
+
+```{r echo = FALSE, results = FALSE}
+print_analysis = TRUE # TRUE or FALSE
+print_analysis_results = 'show' # hide or show
+```
+
+&nbsp;
+
+<!-- Different page numbering for content/formal stuff at the beginning -->
+\newpage
+\pagenumbering{roman}
+\newpage
+
+<!-- {-} removes the numbering from the heading -->
+# Abstract {-}
+
+```{r child = 'content/01a_abstract.Rmd'}
+```
+
+\newpage
+
+# Zusammenfassung {-}
+
+```{r child = 'content/01a_abstract_deutsch.Rmd'}
+```
+
+<!-- Table of contents. Every one of these could be removed -->
+
+\newpage
+<!-- Add table of contents -->
+\tableofcontents
+
+\newpage
+<!-- Add table of contents for figures -->
+\listoffigures
+
+\newpage
+<!-- Add table of contents for tables -->
+\listoftables
+
+<!-- start normal page numbering -->
+\newpage
+\pagenumbering{arabic}
+\hypersetup{linkcolor = black}
+
+<!-- I used newpage for major headings/sections -->
+\newpage
+
+# Introduction
+
+```{r child = 'content/02_introduction.Rmd'}
+```
+
+
+
+\newpage
+
+# Main Section
+
+## Motivation
+
+```{r child = 'content/03a_motivation.Rmd'}
+```
+
+## Methods
+
+```{r child = 'content/03b_methods.Rmd'}
+```
+
+## Results
+
+```{r child = 'content/03c_analysis.Rmd', echo = print_analysis, results = print_analysis_results}
+```
+
+```{r child = 'content/03d_results.Rmd'}
+```
+
+
+
+\newpage
+
+# Discussion
+
+```{r child = 'content/04_discussion.Rmd'}
+```
+
+
+
+\newpage
+
+# References
+
+<!-- Custom formatting I liked for the references. Basically indents every line except the first a bit. This way, if you look through the references, it is easier to read the author's names. -->
+\begingroup
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.4in}
+\setlength{\parskip}{8pt}
+\noindent
+
+<div id="refs"></div>
+\endgroup
+
+
+
+\newpage
+
+# Statement
+
+```{r child = 'content/05_statement.Rmd'}
+```

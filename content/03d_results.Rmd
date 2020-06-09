@@ -1,0 +1,1 @@
+&nbsp;&nbsp;&nbsp;After the heading, but before this section, I included an analysis script example. Using the first R section in the thesis.Rmd file, you can choose if these scripts are printed into the final pdf file.

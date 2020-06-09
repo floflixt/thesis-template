@@ -1,0 +1,26 @@
+% Overwrite/redefine figure environment for better figure placing
+% adapted from https://tex.stackexchange.com/a/166458
+% replaces standard '\begin{figure}[htbp]' with '\begin{figure}[H]'
+
+\usepackage{float}
+
+\let\origfigure\figure
+\let\endorigfigure\endfigure
+\renewenvironment{figure}[1][2] {
+    \expandafter\origfigure\expandafter[H]
+} {
+    \endorigfigure
+}
+
+% adapts line spacing
+\renewcommand{\baselinestretch}{1.5}
+
+% automatically generate short captions for figures.
+% Take the first part of the caption until the first '.'
+% short title/caption is used in toc
+
+\usepackage{listofitems}
+\usepackage{caption}
+
+\newcommand\slcaption[1]{\setsepchar{.}\readlist*\pdots{#1}\caption[{\pdots[1].}]{#1}}
+\captionsetup{format=hang}
