@@ -4,7 +4,7 @@ This is a template for a thesis or a large report, based on RMarkdown `*.Rmd`-fi
 
 It could definitely be improved (and will be in the future), since this evolved during the time I wrote my thesis - I did focus on other things;)
 
-You can find my thesis that I created with this template here (click the PDF button): ![my thesis on my website](https://florif.github.io/publication/bachelor-thesis/)
+You can find my thesis that I created with this template here (click the PDF button): [my thesis on my website](https://florif.github.io/publication/bachelor-thesis/)
 
 ## Basic Usage
 
