@@ -1,0 +1,1 @@
+rmarkdown::render('thesis.Rmd', output_format='pdf_document', encoding='UTF-8')
